@@ -15,7 +15,7 @@ namespace Custom.Audio
         public event Action OnEndCallback;
         //todo : clear this dictionary when scene changes
         //todo : dont count if soundSO is set to uncount
-        private static readonly Dictionary<int, int> audioDictionary = new(16);
+        private static readonly Dictionary<int, int> audioDictionary = new Dictionary<int, int>(16);
 
         private AudioSource audioSource;
         private AudioSO currentAudioSO;
