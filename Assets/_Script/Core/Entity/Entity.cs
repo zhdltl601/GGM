@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public abstract class Entity<DerivedType> : MonoBehaviour
-where DerivedType : Entity<DerivedType>
+public abstract class Entity<DerivedType> : MonoBehaviour 
+    where DerivedType : Entity<DerivedType>
 {
     private readonly Dictionary<Type, IEntityComponent<DerivedType>> componentDictionary = new();
     //doing this at start because indivisual's component awake call.
