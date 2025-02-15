@@ -31,7 +31,7 @@ public partial class @Input2: IInputActionCollection2, IDisposable
                     ""name"": ""Change"",
                     ""type"": ""Button"",
                     ""id"": ""3b950b5a-6471-428b-b42e-8c57393f3e75"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -333,7 +333,7 @@ public partial class @Input2: IInputActionCollection2, IDisposable
                     ""name"": ""Esc"",
                     ""type"": ""Button"",
                     ""id"": ""8d685db6-fef7-423d-85bf-06066f46b00e"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
